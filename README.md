@@ -1,6 +1,6 @@
 # HandyHandouts
 
-- The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available.
+- The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available. The main users of this project would be students.
 
 ### Technology Stack Description:
 
