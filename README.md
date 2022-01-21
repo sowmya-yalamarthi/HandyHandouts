@@ -2,9 +2,8 @@
 
 - The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available.
 
+### Technology Stack Description:
 
-- We are proposing the technology stack based on JAVA with spring, and the front end with Angular.
- 
 ### Backend language + framework 
 - The backend language and framework we are using for our project would be **JAVA / Spring**
 - It is a fully optimized frame work which helps to maintain and modify requirements.
