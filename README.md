@@ -1,5 +1,7 @@
 # HandyHandouts
 
+- The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available.
+
 
 - We are proposing the technology stack based on JAVA with spring, and the front end with Angular.
  
