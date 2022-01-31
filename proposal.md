@@ -65,7 +65,7 @@ The project Handy HandOuts aims at developing a functional computerized system t
 ![](ERDiagram.png "ERDiagram")
 
 ## User Interface Sketches:
-![](HomePage.png "HomePage")
+![home page](HomePage.png)
 ![](LoginPage.png "LoginPage")
 ![](RegisterPage.png "RegisterPage")
 ![](LandingPage.png "LandingPage")
