@@ -31,11 +31,6 @@ The project Handy HandOuts aims at developing a functional computerized system t
  
    ### Acceptance criteria checklist:
    - To view books that are available for different courses, user must select the course.
-
-## User Story: 
-- As an admin,I must be able to manage appointments which may be accepted or rejected based on the books availbility.
-   ### Acceptance criteria checklist:
-   - In order to accept or reject Appointments, students must fill a form about book that they want to.
  
 ## Functional Requirements:
 - Only authentic user must have the access to the system.
@@ -68,6 +63,12 @@ The project Handy HandOuts aims at developing a functional computerized system t
 
 ## E-R diagram displayed and described:
 ![](ERDiagram.png "ERDiagram")
+
+## User Interface Sketches:
+![](HomePage.png "HomePage")
+![](LoginPage.png "LoginPage")
+![](RegisterPage.png "RegisterPage")
+![](LandingPage.png "LandingPage")
 
 ## Technology stack descriptions:
 
