@@ -1,0 +1,26 @@
+.app-container {
+    width: 100vw;
+    height: 100vh;
+  
+    .heading {
+      right: 50%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  
+    .button-container {
+      cursor: pointer;
+      float: right;
+      margin: 10px;
+      display: flex;
+  
+      .margin-right {
+        margin-right: 20px;
+      }
+    }
+  
+    .login {
+      margin-top: 30px;
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
