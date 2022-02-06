@@ -1,1 +1,11 @@
-<h6>Welcome to Handy Handouts Application</h6>
+<div class="app-container">
+    <nav class="navbar" style="background-color: #e3f2fd;">
+      <h1 class="heading"><i class="bi bi-bootstrap-fill"></i>
+        Handy HandOuts</h1>
+      <div class="button-container">
+        <a class="nav-link active" aria-current="page" (click)="navigateToLogin()">Login</a>
+        <a class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
