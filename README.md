@@ -18,6 +18,8 @@
 ### Front-end responsive design 
 - The Front-end responsive design would be **Bootstrap**
 
+[Link For Backend repository](https://github.com/sowmya-yalamarthi/HandyHandouts-Backend)
+
 [Link to Wiki](https://github.com/sowmya-yalamarthi/HandyHandouts/wiki)
 
 [Link to the issues](https://github.com/sowmya-yalamarthi/HandyHandouts/issues)
@@ -52,4 +54,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-[Link For Backend](https://github.com/sowmya-yalamarthi/HandyHandouts-Backend)
