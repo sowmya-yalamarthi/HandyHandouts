@@ -7,5 +7,12 @@
         <a class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
       </div>
     </nav>
+    <div class="input-section">
+      <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Input Message</mat-label>
+        <input matInput type="text" [(ngModel)]="value">
+      </mat-form-field>
+      <button mat-raised-button color="primary"(click)="onClickOfMessageSave()">Submit</button>
+    </div>
     <router-outlet></router-outlet>
   </div>
