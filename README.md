@@ -18,6 +18,8 @@
 ### Front-end responsive design 
 - The Front-end responsive design would be **Bootstrap**
 
+[Hosted URL](https://handy-handouts.herokuapp.com/)
+
 [Link For Backend repository](https://github.com/sowmya-yalamarthi/HandyHandouts-Backend)
 
 [Link to Wiki](https://github.com/sowmya-yalamarthi/HandyHandouts/wiki)
