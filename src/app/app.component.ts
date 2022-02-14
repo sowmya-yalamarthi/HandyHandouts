@@ -12,6 +12,7 @@ export class AppComponent {
   constructor(private service: GeneralserviceService) { }
 
   value = '';
+  displayMessages: any;
 
   navigateToLogin() {
 
@@ -30,9 +31,19 @@ export class AppComponent {
       console.log('message value', this.value)
       this.service.saveMessage(reqObj).subscribe((data: boolean) => {
         if (data) {
+          this.value = ''
           console.log(data)
         }
       })
     }
   }
+
+  onClickOfGetMessage(){
+    this.service.getMessage().subscribe((data : any) => {
+      if(data){
+         this.displayMessages = data;
+      }
+    })
+  }
+
 }

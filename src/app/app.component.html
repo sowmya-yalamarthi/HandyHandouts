@@ -14,5 +14,11 @@
       </mat-form-field>
       <button mat-raised-button color="primary"(click)="onClickOfMessageSave()">Submit</button>
     </div>
+    <div>
+      <button mat-raised-button color="primary"(click)="onClickOfGetMessage()">Get Message</button>
+      <ul>
+        <li *ngFor="let item of displayMessages">{{ item.message }}</li>
+      </ul>
+    </div>
     <router-outlet></router-outlet>
   </div>

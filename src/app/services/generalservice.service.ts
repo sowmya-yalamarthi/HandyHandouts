@@ -9,8 +9,8 @@ import { Observable, of } from 'rxjs';
 })
 export class GeneralserviceService {
 
-  
-  constructor(private http : HttpClient) { }
+
+  constructor(private http: HttpClient) { }
 
 
   saveMessage(reqObj: any): Observable<any> {
@@ -21,6 +21,14 @@ export class GeneralserviceService {
       catchError((error: any) => {
         return of(false);
       }));
+  }
+
+  getMessage() {
+    return this.http.get(environment.baseUrl + 'test/message').pipe(map((messages : any) => {
+      if (messages) {
+        return messages;
+      }
+    }))
   }
 }
 
