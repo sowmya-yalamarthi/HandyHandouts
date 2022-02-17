@@ -1,0 +1,26 @@
+.landing-page-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  
+    img {
+      width: 100%;
+      height: calc(100vh - 76px);
+      text-align: center;
+      background-image: url('../../../assets/jpg/landpagebg.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color: rgb(0 123 255 / 25%);
+      background-blend-mode: lighten;
+    }
+  
+    .centered {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #f6f6f7;
+    }
+  
+  
+  }
