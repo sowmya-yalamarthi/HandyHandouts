@@ -34,20 +34,20 @@
   }
 
 
-  // @media only screen and (max-width: 760px) {
-  //   .app-container {
-  //     .heading {
-  //       font-size: 1rem;
-  //       margin-bottom: 0px;
-  //     }
+  @media only screen and (max-width: 760px) {
+    .app-container {
+      .heading {
+        font-size: 1rem;
+        margin-bottom: 0px;
+      }
   
-  //     .button-container {
-  //       margin: 0px;
+      .button-container {
+        margin: 0px;
   
-  //       .nav-link {
-  //         padding: .5rem .5rem;
-  //       }
-  //     }
-  //   }
-  // }
+        .nav-link {
+          padding: .5rem .5rem;
+        }
+      }
+    }
+  }
   
