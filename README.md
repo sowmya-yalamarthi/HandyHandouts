@@ -1,5 +1,7 @@
 # HandyHandouts
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/101ec5dcc1834eddb174caa8198aafd5)](https://www.codacy.com/gh/sowmya-yalamarthi/HandyHandouts/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sowmya-yalamarthi/HandyHandouts&amp;utm_campaign=Badge_Grade)
+
 - The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available. The main users of this project would be students.
 
 ### Technology Stack Description:
