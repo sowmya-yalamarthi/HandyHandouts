@@ -8,6 +8,18 @@
       </div>
     </nav>
    
-    
+    <div class="input-section">
+      <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Input Message</mat-label>
+        <input matInput type="text" [(ngModel)]="value">
+      </mat-form-field>
+      <button mat-raised-button color="primary"(click)="onClickOfMessageSave()">Submit</button>
+    </div>
+    <div>
+      <button mat-raised-button color="primary"(click)="onClickOfGetMessage()">Get Message</button>
+      <ul>
+        <li *ngFor="let item of displayMessages">{{ item.message }}</li>
+      </ul>
+    </div>
     <router-outlet></router-outlet>
   </div>
