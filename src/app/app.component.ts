@@ -20,7 +20,7 @@ export class AppComponent {
   }
 
   navigateToRegister() {
-
+    this.router.navigate(["/accounts/register"])
   }
 
   onClickOfMessageSave() {
