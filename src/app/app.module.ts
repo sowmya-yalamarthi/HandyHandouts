@@ -1,31 +1,34 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgModule } from '@angular/core';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule } from '@angular/material/input';
-import { MatIconModule } from '@angular/material/icon';
-import { FormsModule } from '@angular/forms';
-import { MatButtonModule } from '@angular/material/button';
+import { AccountsModule } from './modules/accounts/accounts.module';
+import { ContentComponent } from './components/content/content.component';
+import { SharedModule } from './modules/shared/shared.module';
 import { GeneralserviceService } from './services/generalservice.service';
-import { HttpClientModule } from '@angular/common/http';
+import { JwtInterceptor } from './helpers/_helpers/jwt.interceptors';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatInputModule,
-    MatIconModule,
-    FormsModule,
-    MatButtonModule,
-    HttpClientModule
+    HttpClientModule, 
+    AccountsModule,
+    SharedModule,
   ],
-  providers: [GeneralserviceService],
+  providers: [GeneralserviceService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptor,
+      multi: true,
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
