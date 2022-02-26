@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-//import { AppserviceService } from 'src/app/services/appservice.service';
+import { GeneralserviceService } from 'src/app/services/generalservice.service';
 
 @Component({
   selector: 'app-login',
@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
     private formBuilder: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
-    //private serviceService: AppserviceService
+    private serviceService: GeneralserviceService
   ) {
     this.loginForm = this.formBuilder.group({
       username: ['', Validators.required],
@@ -52,21 +52,21 @@ export class LoginComponent implements OnInit {
       password: value.password
     }
 
-    // this.serviceService.getUser(reqObj).subscribe(data => {
-    //   if (data) {
-    //     this.isLoginSucessFull = true;
-    //     this.router.navigate(["/home-dashboard"])
-    //   } else {
-    //     this.errorAlert = true;
-    //     this.displayMessage = 'Username or password is incorrect'
-    //     this.errorMsg = true;
-    //     this.isLoginSucessFull = false;
-    //   }
-    // },
-    //   (err) => {
-    //     this.isLoginSucessFull = false;
-    //   }
-    // )
+    this.serviceService.getUser(reqObj).subscribe(data => {
+      if (data) {
+        this.isLoginSucessFull = true;
+        this.router.navigate(["/home-dashboard"])
+      } else {
+        this.errorAlert = true;
+        this.displayMessage = 'Username or password is incorrect'
+        this.errorMsg = true;
+        this.isLoginSucessFull = false;
+      }
+    },
+      (err) => {
+        this.isLoginSucessFull = false;
+      }
+    )
 
   }
 

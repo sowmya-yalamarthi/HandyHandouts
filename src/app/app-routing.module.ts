@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './components/content/content.component';
 
 const routes: Routes = [
+  { path: 'accounts', loadChildren: () => import('./modules/accounts/accounts.module').then(x => x.AccountsModule) },
   { path: '', component: ContentComponent },
 ];
 

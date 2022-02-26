@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { GeneralserviceService } from './services/generalservice.service';
 
 @Component({
@@ -9,13 +10,13 @@ import { GeneralserviceService } from './services/generalservice.service';
 export class AppComponent {
   title = 'angularproject';
 
-  constructor(private service: GeneralserviceService) { }
+  constructor(private service: GeneralserviceService, private router : Router) { }
 
   value = '';
   displayMessages: any;
 
   navigateToLogin() {
-
+    this.router.navigate(["/accounts"])
   }
 
   navigateToRegister() {
