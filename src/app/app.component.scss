@@ -1,6 +1,7 @@
 .app-container {
     width: 100vw;
     height: 100vh;
+    overflow-y: auto;
   
     .heading {
       font-size: 35px;
@@ -51,4 +52,19 @@
       }
     }
   }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(30,30,60);
+    color: white;
+  }
+  .foot{
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+  }
   
+  main{
+    height: calc(100vh - 139px);
+  }
