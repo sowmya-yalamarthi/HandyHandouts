@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
-  
+    
     .heading {
       font-size: 35px;
       right: 50%;
@@ -10,21 +10,16 @@
     }
   
     .button-container {
-      cursor: pointer;
+      
       float: right;
       margin: 10px;
       display: flex;
+      justify-content: space-around;
   
-      .margin-right {
-        margin-right: 20px;
-      }
+     
     }
   
-    .login {
-      margin-top: 30px;
-      width: 500px;
-      margin: 0 auto;
-    }
+    
   }
 
   .input-section{
@@ -64,7 +59,56 @@
     display:flex;
     justify-content: space-around;
   }
+ 
   
   main{
     height: calc(100vh - 139px);
   }
+
+
+  /* Dropdown Button */
+.btn {
+  background-color: #2196F3;
+  color: white;
+  display: flex;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+ 
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btn:hover, .dropdown:hover .btn  {
+  background-color: #0b7dda;
+}

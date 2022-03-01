@@ -1,10 +1,22 @@
 <div class="app-container">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <nav class="navbar" style="background-color: #e3f2fd;">
     <h1 class="heading"><i class="bi bi-bootstrap-fill"></i>
       Handy HandOuts</h1>
+
     <div class="button-container">
-      <a class="nav-link active" aria-current="page" (click)="navigateToLogin()">Login</a>
-      <a class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
+     
+      <div class="dropdown">
+        <button class="btn">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+          <a class="nav-link active" aria-current="page" (click)="navigateToLogin()">Login</a>
+          <a class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
+        </div>
+      </div>
+
     </div>
   </nav>
   <main>
