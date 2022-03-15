@@ -1,12 +1,18 @@
 .register-page-container {
-    padding-top: 5px;
-    margin: 0 auto;
-    width: 45%;
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 45%;
+  height: calc(100vh - 142px);
+  overflow-y: auto;
+}
+
+.register-page-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .register-page-container {
+    width: 95%;
+    margin-top: 5%;
   }
-  
-  @media only screen and (max-width: 768px) {
-    .register-page-container {
-      width: 95%;
-      margin-top: 5%;
-    }
-  }
+}
