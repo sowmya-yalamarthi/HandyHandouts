@@ -4,7 +4,7 @@ For UI [![Codacy Badge](https://app.codacy.com/project/badge/Grade/101ec5dcc1834
 
 For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a3c8b4a259f7cbee64a537a64)](https://www.codacy.com/gh/sowmya-yalamarthi/HandyHandouts-Backend/dashboard?utm_source=github.com&utm_medium=referral&utm_content=sowmya-yalamarthi/HandyHandouts-Backend&utm_campaign=Badge_Grade)
 
-![Coverage](.github/badges/jacoco.svg)
+
 
 [link to Synk](https://app.snyk.io/org/sowmya-yalamarthi)
 
@@ -47,6 +47,16 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 [Link to the issues](https://github.com/sowmya-yalamarthi/HandyHandouts/issues)
 
 [Link to the milestones](https://github.com/sowmya-yalamarthi/HandyHandouts/milestones)
+
+# Testing 
+
+We are using selenium using java for testing. We have implemented three scenories for testing i.e login , register and home page. We are generating test reports using cucumber.
+
+steps involved:
+* Run on any scenario and then in the console we see a link to the test report which is available for 24hours.
+* If we want our test reports forever we need to create a collection in the cucumber. we can find the link to it in the console itself.
+* After creating collections in cucumber we have to add that cucumber token in cucumber.properities file, then everytime we run a scenario the report will be generted in the cucumber collections, which is available forever.
+
 
 # Handy HandOuts
 
