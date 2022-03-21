@@ -34,6 +34,8 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 
 [Hosted URL](https://handy-handouts.herokuapp.com/)
 
+[Link to selenium testing reports ](https://reports.cucumber.io/report-collections/be4400f5-192d-4d4c-9742-22783bd7148d)
+
 [Link For Backend repository](https://github.com/sowmya-yalamarthi/HandyHandouts-Backend)
 
 [Link to project board](https://github.com/sowmya-yalamarthi?tab=projects&type=beta)
