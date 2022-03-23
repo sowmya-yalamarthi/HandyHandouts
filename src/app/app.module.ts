@@ -16,20 +16,20 @@ import { AuthModule } from '@auth0/auth0-angular';
   declarations: [
     AppComponent,
     ContentComponent,
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule, 
+    HttpClientModule,
     AccountsModule,
     SharedModule,
 
     AuthModule.forRoot({
       domain: "dev-49w0jms8.us.auth0.com",
-    clientId: "NV8VWjY0eAEszULbpuyyBC7RGx94wnI6",
+      clientId: "NV8VWjY0eAEszULbpuyyBC7RGx94wnI6",
     }),
-    
+
 
   ],
   providers: [GeneralserviceService,
