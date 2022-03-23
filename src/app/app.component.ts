@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from '@auth0/auth0-angular';
 import { GeneralserviceService } from './services/generalservice.service';
 
 @Component({
@@ -10,7 +11,7 @@ import { GeneralserviceService } from './services/generalservice.service';
 export class AppComponent {
   title = 'angularproject';
 
-  constructor(private service: GeneralserviceService, private router : Router) { }
+  constructor(private service: GeneralserviceService, private router : Router, public auth: AuthService) { }
 
   value = '';
   displayMessages: any;
@@ -46,5 +47,10 @@ export class AppComponent {
       }
     })
   }
+
+  routeToOauth(){
+    this.auth.loginWithRedirect();
+  }
+
 
 }

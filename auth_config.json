@@ -1,0 +1,6 @@
+{
+    "domain": "dev-49w0jms8.us.auth0.com",
+    "clientId": "NV8VWjY0eAEszULbpuyyBC7RGx94wnI6",
+    "clientSecret":"VZgvexV6DeXON2gftj5IBA_nnxph8rLIil-0AmEpBNkNqpcqNCS_ac6f3VHsTv5B",
+    "redirect_uri":"https://handy-handouts.herokuapp.com/"
+  }

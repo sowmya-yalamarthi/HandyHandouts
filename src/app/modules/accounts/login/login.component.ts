@@ -3,9 +3,14 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { GeneralserviceService } from 'src/app/services/generalservice.service';
 
+// Import the AuthService type from the SDK
+import { AuthService } from '@auth0/auth0-angular';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
+  template: '<button (click)="login">Login</button>',
+
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
@@ -18,8 +23,11 @@ export class LoginComponent implements OnInit {
   errorMsg: boolean = false;
   displayMessage: string | undefined;
   errorAlert: boolean | undefined;
+  
+ 
 
   constructor(
+    public auth: AuthService,
     private formBuilder: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
@@ -30,6 +38,8 @@ export class LoginComponent implements OnInit {
       password: ['', Validators.required]
     });
 
+   
+
   }
 
 
@@ -38,6 +48,10 @@ export class LoginComponent implements OnInit {
 
   }
 
+  login(): void {
+    // Call this to redirect the user to the login page
+    this.auth.loginWithRedirect();
+  }
   get f() { return this.loginForm.controls; }
 
   onSubmit() {
