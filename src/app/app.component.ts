@@ -49,7 +49,7 @@ export class AppComponent {
   }
 
   routeToOauth(){
-    this.auth.loginWithPopup();
+    this.auth.loginWithRedirect();
   }
 
 
