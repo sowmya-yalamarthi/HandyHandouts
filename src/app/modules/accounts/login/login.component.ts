@@ -24,8 +24,6 @@ export class LoginComponent implements OnInit {
   displayMessage: string | undefined;
   errorAlert: boolean | undefined;
   
- 
-
   constructor(
     public auth: AuthService,
     private formBuilder: FormBuilder,
@@ -37,22 +35,18 @@ export class LoginComponent implements OnInit {
       username: ['', Validators.required],
       password: ['', Validators.required]
     });
-
-   
-
   }
-
-
   ngOnInit(): void {
-
-
   }
 
   login(): void {
     // Call this to redirect the user to the login page
     this.auth.loginWithRedirect();
   }
-  get f() { return this.loginForm.controls; }
+  get f() 
+  {
+     return this.loginForm.controls; 
+  }
 
   onSubmit() {
     this.submitted = true;
@@ -81,7 +75,5 @@ export class LoginComponent implements OnInit {
         this.isLoginSucessFull = false;
       }
     )
-
   }
-
 }
