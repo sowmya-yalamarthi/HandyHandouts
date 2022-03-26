@@ -12,8 +12,7 @@ export class AppComponent {
   title = 'angularproject';
 
 
-  constructor(private service: GeneralserviceService, private router : Router,) { }
-  constructor(@Inject(DOCUMENT) private doc: Document, private service: GeneralserviceService, private router : Router, public auth: AuthService) { }
+  constructor(private service: GeneralserviceService, private router: Router,) { }
 
   value = '';
   displayMessages: any;
@@ -42,15 +41,15 @@ export class AppComponent {
     }
   }
 
-  logout(): void {
-    // Call this to redirect the user to the login page
-    this.auth.logout({ returnTo: this.doc.location.origin });
-  }
+  // logout(): void {
+  //   // Call this to redirect the user to the login page
+  //   this.auth.logout({ returnTo: this.doc.location.origin });
+  // }
 
-  onClickOfGetMessage(){
-    this.service.getMessage().subscribe((data : any) => {
-      if(data){
-         this.displayMessages = data;
+  onClickOfGetMessage() {
+    this.service.getMessage().subscribe((data: any) => {
+      if (data) {
+        this.displayMessages = data;
       }
     })
   }
