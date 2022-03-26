@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { GeneralserviceService } from './services/generalservice.service';
 
@@ -10,7 +11,9 @@ import { GeneralserviceService } from './services/generalservice.service';
 export class AppComponent {
   title = 'angularproject';
 
+
   constructor(private service: GeneralserviceService, private router : Router,) { }
+  constructor(@Inject(DOCUMENT) private doc: Document, private service: GeneralserviceService, private router : Router, public auth: AuthService) { }
 
   value = '';
   displayMessages: any;
@@ -37,6 +40,11 @@ export class AppComponent {
         }
       })
     }
+  }
+
+  logout(): void {
+    // Call this to redirect the user to the login page
+    this.auth.logout({ returnTo: this.doc.location.origin });
   }
 
   onClickOfGetMessage(){
