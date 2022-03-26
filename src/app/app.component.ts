@@ -1,7 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from '@auth0/auth0-angular';
 import { GeneralserviceService } from './services/generalservice.service';
 
 @Component({
@@ -12,6 +11,8 @@ import { GeneralserviceService } from './services/generalservice.service';
 export class AppComponent {
   title = 'angularproject';
 
+
+  constructor(private service: GeneralserviceService, private router : Router,) { }
   constructor(@Inject(DOCUMENT) private doc: Document, private service: GeneralserviceService, private router : Router, public auth: AuthService) { }
 
   value = '';
@@ -53,10 +54,14 @@ export class AppComponent {
       }
     })
   }
-
-  routeToOauth(){
-    this.auth.loginWithRedirect();
+  logout() {
+    this.service.logout();
+    this.router.navigate(['/accounts']);
   }
+
+  // routeToOauth(){
+  //   this.auth.loginWithRedirect();
+  // }
 
 
 }

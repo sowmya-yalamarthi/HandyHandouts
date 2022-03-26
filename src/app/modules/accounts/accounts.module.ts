@@ -5,14 +5,15 @@ import { AccountsRoutingModule } from './accounts-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
 @NgModule({
   declarations: [LoginComponent, RegisterComponent],
   imports: [
-    CommonModule,
-    AccountsRoutingModule, 
+     CommonModule,
+    AccountsRoutingModule, //BrowserModule,
     ReactiveFormsModule,
     SharedModule
   ]

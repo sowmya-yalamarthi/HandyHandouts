@@ -50,6 +50,18 @@ export class GeneralserviceService {
     }))
   }
 
+  logout() {
+    // remove user from local storage to log user out
+    localStorage.removeItem('currentUser');
+    localStorage.removeItem('currentUserInfo');
+    this.currentUserInfo={};
+    this.currentUser={};
+}
+getBooks():Observable<any> {
+  return this.http.get<any>(environment.baseUrl +"book/all").pipe(map(data=>{
+    return data;
+  }))
+}
 
 
 }

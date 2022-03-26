@@ -1,0 +1,19 @@
+<div class="card">
+    
+     <!-- {{books | json }} -->
+         <div class="container">
+        <div class="row">
+          <div class="col-sm" *ngFor="let book of books">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/landpagebg.jpg" alt="book.title">
+                <div class="card-body">
+                  <h3 class="card-title">{{book.title}}</h3>
+                  <p class="card-text">{{book.book_author}}</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
