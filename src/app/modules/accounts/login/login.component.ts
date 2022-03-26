@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { GeneralserviceService } from 'src/app/services/generalservice.service';
 
 // Import the AuthService type from the SDK
-import { AuthService } from '@auth0/auth0-angular';
+//import { AuthService } from '@auth0/auth0-angular';
 
 @Component({
   selector: 'app-login',
@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
  
 
   constructor(
-    public auth: AuthService,
+    //public auth: AuthService,
     private formBuilder: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
@@ -37,7 +37,11 @@ export class LoginComponent implements OnInit {
       username: ['', Validators.required],
       password: ['', Validators.required]
     });
-
+    if (this.serviceService.currentUser) { 
+          
+      this.router.navigate(['/accounts']);
+  }
+  
    
 
   }
@@ -50,7 +54,7 @@ export class LoginComponent implements OnInit {
 
   login(): void {
     // Call this to redirect the user to the login page
-    this.auth.loginWithRedirect();
+   // this.auth.loginWithRedirect();
   }
   get f() { return this.loginForm.controls; }
 
@@ -60,7 +64,7 @@ export class LoginComponent implements OnInit {
       return;
     }
     const value = this.loginForm.getRawValue();
-    //console.log(value)
+    console.log(value)
     const reqObj = {
       userName: value.username,
       password: value.password
@@ -69,7 +73,7 @@ export class LoginComponent implements OnInit {
     this.serviceService.getUser(reqObj).subscribe(data => {
       if (data) {
         this.isLoginSucessFull = true;
-        this.router.navigate(["/home-dashboard"])
+        this.router.navigate(["/books"])
       } else {
         this.errorAlert = true;
         this.displayMessage = 'Username or password is incorrect'
