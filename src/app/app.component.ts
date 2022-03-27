@@ -26,6 +26,10 @@ export class AppComponent {
     this.router.navigate(["/accounts/register"])
   }
 
+  navigateToBooks() {
+    this.router.navigate(["books"])
+  }
+
   onClickOfMessageSave() {
     if (this.value != '') {
       let reqObj = {
@@ -54,14 +58,11 @@ export class AppComponent {
       }
     })
   }
-  logout() {
-    this.service.logout();
-    this.router.navigate(['/accounts']);
+  
+  logout(): void {
+    // Call this to log the user out of the application
+    this.auth.logout({ returnTo: window.location.origin });
   }
-
-  // routeToOauth(){
-  //   this.auth.loginWithRedirect();
-  // }
 
   login(): void {
     // Call this to redirect the user to the login page

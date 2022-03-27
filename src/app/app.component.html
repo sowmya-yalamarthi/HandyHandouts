@@ -7,9 +7,10 @@
 
     <div class="button-container">
       
-      <a class="nav-link active" aria-current="page" (click)="login()">Login</a>
-      <a class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
-      <a class="nav-link active" aria-current="page" (click)="logout()">Logout</a>
+      <a *ngIf="(auth.isAuthenticated$ | async) === false" class="nav-link active" aria-current="page" (click)="login()">Login</a>
+      <a *ngIf="(auth.isAuthenticated$ | async) === false" class="nav-link active" aria-current="page" (click)="navigateToRegister()">Register</a>
+      <a *ngIf="auth.isAuthenticated$ | async" class="nav-link active" aria-current="page" (click)="navigateToBooks()">Books</a>
+      <a *ngIf="auth.isAuthenticated$ | async" class="nav-link active" aria-current="page" (click)="logout()">Logout</a>
     </div>
   </nav>
   <main>
