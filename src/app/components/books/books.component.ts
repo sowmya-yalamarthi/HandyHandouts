@@ -34,7 +34,7 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "Python",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "Python_language"
         },
         {
@@ -45,7 +45,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Head First Python: A Brain-Friendly Guide",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "Python_language"
         },
         {
@@ -56,7 +56,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Learn Python 3 the Hard Way",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "Python_language"
         },
         {
@@ -67,7 +67,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Effective Java",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -78,7 +78,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Head First Java",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -89,7 +89,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Java Concurrency in Practice",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -100,7 +100,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Mastering Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -111,7 +111,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "iOS Programming Fundamentals with Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -122,7 +122,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "iOS Programming: The Big Nerd Ranch Guide",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -133,7 +133,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Data Structures & Algorithms in Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -144,7 +144,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Android Programming with Kotlin for Beginners",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "android_development"
         },
         {
@@ -155,7 +155,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Android Programming",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "android_development"
         },
         {
@@ -166,7 +166,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Progressive web app",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "web_apps"
         },
         {
@@ -177,7 +177,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Building Progressive Web Apps",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -188,7 +188,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Beginning Progressive Web App Development",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -199,7 +199,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Progressive Web Apps with React",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -210,7 +210,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Progressive Web Apps with Angular",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -221,7 +221,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Advanced Database Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -232,7 +232,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "SQL Antipatterns",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -243,7 +243,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "The Art of SQL",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -254,7 +254,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "The Lazy Project Manager",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -265,7 +265,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Project Management for the Unofficial Project Manager",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -275,7 +275,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Strategic Project Management Made Simple",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -285,7 +285,7 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "Information Dashboard Design",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "data_visualization"
         },
         {
@@ -295,7 +295,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "The Accidental Analyst",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "data_visualization"
         },
         {
@@ -305,7 +305,7 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "The Visual Display of Quantitative Information",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "data_visualization"
         },
         {
@@ -316,7 +316,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Big Data: A Revolution That Will Transform How We Live, Work, and Think",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "big_data"
         },
         {
@@ -327,7 +327,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Big Data at Work: Dispelling the Myths, Uncovering the Opportunities",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "big_data"
         },
         {
@@ -338,7 +338,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Big Data: Principles and Best Practices of Scalable Realtime Data Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "big_data"
         },
         {
@@ -349,7 +349,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "machine_learning"
         },
         {
@@ -360,7 +360,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Machine Learning for Absolute Beginners",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         },
         {
@@ -371,7 +371,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Introduction to Machine Learning with Python",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         },
         {
@@ -382,7 +382,7 @@ export class BooksComponent implements OnInit {
         
           "title" : "Understanding Machine Learning",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         }
       ]
