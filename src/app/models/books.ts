@@ -1,11 +1,12 @@
 import { Courses } from "./courses";
 
 export class Book{
-    book_id:number;
-    title:String;
-	book_author:String;
-	rating:String;
-    created_by:String;
-	course_id:String;
-	course:Courses;
+    book_id:string;
+    title:string;
+	book_author:string;
+	rating:string;
+    created_by:string;
+	created_date:string;
+	course_id:string;
+	//course:Courses;
 }

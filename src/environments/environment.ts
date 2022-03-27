@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl:"http://localhost:8081/"//"https://handy-handoutsapi.herokuapp.com/"
+  baseUrl:"https://handy-handoutsapi.herokuapp.com/"
 };
 
 /*
