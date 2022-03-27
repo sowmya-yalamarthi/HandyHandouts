@@ -10,6 +10,8 @@ import { GeneralserviceService } from './services/generalservice.service';
 import { JwtInterceptor } from './helpers/_helpers/jwt.interceptors';
 import { CommonModule } from '@angular/common';
 import { BooksComponent } from './components/books/books.component';
+import { AuthModule } from '@auth0/auth0-angular';
+import { environment } from 'src/environments/environment';
 //import {ButtonModule} from 'primeng/button';
 //import {DataViewModule} from 'primeng/dataview';
 //import {PanelModule} from 'primeng/panel';
@@ -35,13 +37,11 @@ import { BooksComponent } from './components/books/books.component';
     HttpClientModule,
     AccountsModule,
     SharedModule,
-
-    // AuthModule.forRoot({
-    //   domain: "dev-49w0jms8.us.auth0.com",
-    //   clientId: "NV8VWjY0eAEszULbpuyyBC7RGx94wnI6",
-    // }),
-
-
+    AuthModule.forRoot({
+      domain: environment.domainID,
+      clientId: environment.clientID,
+      redirectUri: environment.redirectUri,
+    }),
   ],
   providers: [GeneralserviceService,
     {
