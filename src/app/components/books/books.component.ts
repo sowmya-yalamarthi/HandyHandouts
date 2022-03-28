@@ -34,9 +34,10 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "Python",
           "rating" : "5",
-          "created_by" : "Ajay",
           "course_id" : "Python_language",
-          "image":"assets/python.jpg"
+          "image":"assets/python.jpg",
+          "created_by" : "Sumithra",
+          
         },
         {
           
@@ -47,8 +48,8 @@ export class BooksComponent implements OnInit {
           
           "title" : "Head First Python: A Brain-Friendly Guide",
           "rating" : "5",
-          "created_by" : "Ajay",
-          "course_id" : "Python_language"
+          "created_by" : "Sumithra",
+          "course_id" : "Python_language",
         },
         {
           
@@ -58,7 +59,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python2.jpg",
           "title" : "Learn Python 3 the Hard Way",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "Python_language"
         },
         {
@@ -69,7 +70,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/java1.jpeg",
           "title" : "Effective Java",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -80,7 +81,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/java2.jpg",
           "title" : "Head First Java",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -91,7 +92,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Java Concurrency in Practice",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "java_language"
         },
         {
@@ -102,7 +103,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Mastering Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -113,7 +114,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "iOS Programming Fundamentals with Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -124,7 +125,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "iOS Programming: The Big Nerd Ranch Guide",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -135,7 +136,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Data Structures & Algorithms in Swift",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "ios"
         },
         {
@@ -146,7 +147,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Android Programming with Kotlin for Beginners",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "android_development"
         },
         {
@@ -157,7 +158,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Android Programming",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "android_development"
         },
         {
@@ -168,7 +169,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Progressive web app",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "web_apps"
         },
         {
@@ -179,7 +180,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Building Progressive Web Apps",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -190,7 +191,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Beginning Progressive Web App Development",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -201,7 +202,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Progressive Web Apps with React",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -212,7 +213,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Progressive Web Apps with Angular",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "web_apps"
         },
         {
@@ -223,7 +224,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Advanced Database Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -234,7 +235,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "SQL Antipatterns",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -245,7 +246,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "The Art of SQL",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "advance_data_base"
         },
         {
@@ -256,7 +257,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "The Lazy Project Manager",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -267,7 +268,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Project Management for the Unofficial Project Manager",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -277,7 +278,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Strategic Project Management Made Simple",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "project_management"
         },
         {
@@ -287,9 +288,9 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "Information Dashboard Design",
           "rating" : "5",
-          "created_by" : "Ajay",
           "course_id" : "data_visualization",
           "image":"assets/python.jpg",
+          "created_by" : "Sowmya",
         },
         {
           "book_author" : "Stephen McDaniel",
@@ -298,7 +299,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "The Accidental Analyst",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "data_visualization"
         },
         {
@@ -308,9 +309,9 @@ export class BooksComponent implements OnInit {
           "created_date" : "2022-03-13",
           "title" : "The Visual Display of Quantitative Information",
           "rating" : "5",
-          "created_by" : "Ajay",
           "course_id" : "data_visualization",
           "image":"assets/python.jpg",
+          "created_by" : "Sumithra",
         },
         {
         
@@ -320,7 +321,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Big Data: A Revolution That Will Transform How We Live, Work, and Think",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "big_data"
         },
         {
@@ -331,7 +332,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Big Data at Work: Dispelling the Myths, Uncovering the Opportunities",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "big_data"
         },
         {
@@ -342,7 +343,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Big Data: Principles and Best Practices of Scalable Realtime Data Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "big_data"
         },
         {
@@ -353,7 +354,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sowmya",
           "course_id" : "machine_learning"
         },
         {
@@ -364,7 +365,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Machine Learning for Absolute Beginners",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         },
         {
@@ -375,7 +376,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Introduction to Machine Learning with Python",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         },
         {
@@ -386,7 +387,7 @@ export class BooksComponent implements OnInit {
           "image":"assets/python.jpg",
           "title" : "Understanding Machine Learning",
           "rating" : "5",
-          "created_by" : "Ajay",
+          "created_by" : "Sumithra",
           "course_id" : "machine_learning"
         }
       ]
