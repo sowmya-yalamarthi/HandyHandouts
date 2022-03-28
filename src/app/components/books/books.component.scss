@@ -94,7 +94,10 @@
     border-radius: 4px;
     margin-bottom: 2rem;
 }
-
+.card-img-top{
+    width: 220px;
+    height: 220px;
+}
 @media screen and (max-width: 576px) {
 	:host ::ng-deep .product-list-item {
 		flex-direction: column;

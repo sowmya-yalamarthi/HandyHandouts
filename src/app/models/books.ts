@@ -8,5 +8,6 @@ export class Book{
     created_by:string;
 	created_date:string;
 	course_id:string;
+	image:string;
 	//course:Courses;
 }
