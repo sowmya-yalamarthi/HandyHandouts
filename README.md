@@ -38,6 +38,8 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 
 [Link For Backend repository](https://github.com/sowmya-yalamarthi/HandyHandouts-Backend)
 
+[Link to Swagger](https://handy-handoutsapi.herokuapp.com/swagger-ui/#/)
+
 [Link to project board](https://github.com/sowmya-yalamarthi?tab=projects&type=beta)
 
 [Link to Wiki](https://github.com/sowmya-yalamarthi/HandyHandouts/wiki)
