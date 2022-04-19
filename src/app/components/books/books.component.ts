@@ -33,6 +33,13 @@ export class BooksComponent implements OnInit {
     })
   }
 
+  delBooks(data:any, i:number){
+    this.generalService.delBooks(data.id).subscribe(data => {
+      this.books = this.books.slice(i , 1);
+      console.log(this.books);
+    })
+  }
+
   onSortChange(event:any) {
     let value = event.value;
 

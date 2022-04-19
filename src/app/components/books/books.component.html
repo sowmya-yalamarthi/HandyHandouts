@@ -3,13 +3,15 @@
      <!-- {{books | json }} -->
          <div class="container">
         <div class="row">
-          <div class="col-sm" *ngFor="let book of books">
+          <div class="col-sm" *ngFor="let book of books; let i = index">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" [src]="book?.image" alt="book.title">
                 <div class="card-body">
                   <h3 class="card-title">{{book?.title}}</h3>
                   <p class="card-text">{{book?.book_author}}</p>
+                  
                  <a href="https://www.nwmissouri.edu/library/index.htm" class="btn btn-primary">More Books </a>
+                
                 </div>
               </div>
           </div>

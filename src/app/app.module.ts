@@ -12,6 +12,8 @@ import { CommonModule } from '@angular/common';
 import { BooksComponent } from './components/books/books.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { environment } from 'src/environments/environment';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 //import {ButtonModule} from 'primeng/button';
 //import {DataViewModule} from 'primeng/dataview';
 //import {PanelModule} from 'primeng/panel';
@@ -37,11 +39,13 @@ import { environment } from 'src/environments/environment';
     HttpClientModule,
     AccountsModule,
     SharedModule,
+    MatButtonModule,
     AuthModule.forRoot({
       domain: environment.domainID,
       clientId: environment.clientID,
       redirectUri: environment.redirectUri,
     }),
+    BrowserAnimationsModule,
   ],
   providers: [GeneralserviceService,
     {
