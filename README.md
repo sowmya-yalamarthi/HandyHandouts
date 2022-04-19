@@ -48,6 +48,10 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 
 [Link to the milestones](https://github.com/sowmya-yalamarthi/HandyHandouts/milestones)
 
+# Presentation
+
+[Click here to view PPT](https://github.com/sowmya-yalamarthi/HandyHandouts/blob/main/handy_handouts.pptx)
+
 # Testing
 
 We are using selenium using java for testing. We have implemented three scenories for testing i.e login , register and home page. We are generating test reports using cucumber.
