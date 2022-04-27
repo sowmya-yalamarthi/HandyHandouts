@@ -8,6 +8,11 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 
 - The project Handy HandOuts aims at developing a functional computerized system to maintain all the day-to-day activity of books in a library. This project has features such as the facility of user login, the ability to view books that are available. The main users of this project would be students.
 
+### Team:
+
+[Sowmya Yalamarthi](https://github.com/sowmya-yalamarthi)
+[Saisumithra Jagarlamudi](https://github.com/Saisumithra)
+
 ### Technology Stack Description:
 
 ### Backend language + framework
