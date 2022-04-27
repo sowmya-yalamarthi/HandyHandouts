@@ -11,6 +11,7 @@ For Backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cb09c54a
 ### Team:
 
 [Sowmya Yalamarthi](https://github.com/sowmya-yalamarthi)
+
 [Saisumithra Jagarlamudi](https://github.com/Saisumithra)
 
 ### Technology Stack Description:
